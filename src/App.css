@@ -1,0 +1,94 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+
+.sidenav .a{
+ 
+  text-decoration: none;
+
+  color:grey;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  
+}
+
+.sidenav .a:hover {
+  color: #f1f1f1;
+  cursor: pointer;
+}
+.compbutn{
+  background-color:#4286f4; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:list-item;
+  font-size: 16px;
+  margin: 8%;
+ 
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 22px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  color: #4286f4;
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(245, 243, 240);
+  overflow-x: hidden;
+}
+.inner-li{
+  border-radius: 5px;
+
+  padding: 10px; 
+  width: 70px;
+  height: 12px; 
+  margin-bottom: 5px;
+ 
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav ul {font-size: 18px;}
+}
+.p1{
+  font-size:12px;
+  
+}
+.p2{
+  color:grey;
+  top:0;
+  background-color: azure
+}
+.list-item{
+  display:block;
+  font-size:22px;
+  
+  
+}
+.list-item:hover{
+ background-color:rgb(172, 219, 238);
+ cursor: pointer;
+
+}
+.MailList{
+  padding-left:"600px"
+}
